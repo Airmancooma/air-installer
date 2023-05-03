@@ -14,6 +14,19 @@ Presentation
     Slide {
         Image {
             anchors.centerIn: parent
+            id: image1
+            x: 0
+            y: 0
+            width: 810
+            height: 485
+            fillMode: Image.PreserveAspectFit
+            smooth: true
+            source: "lightweight.png"
+        }
+    }
+    Slide {
+        Image {
+            anchors.centerIn: parent
             id: image2
             x: 0
             y: 0
